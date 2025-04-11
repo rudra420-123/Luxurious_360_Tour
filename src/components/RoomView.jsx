@@ -19,7 +19,7 @@ export default function RoomView() {
             <Sphere args={[500, 60, 40]} scale={1}>
               <meshStandardMaterial
                 map={new THREE.TextureLoader().load(
-                  `/assets/images/${roomName}-360.jpg`
+                 `${import.meta.env.BASE_URL}assets/${roomName}-360.jpg`
                 )}
                 side={THREE.BackSide}
               />

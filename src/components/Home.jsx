@@ -2,11 +2,23 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const rooms = [
-  { name: "bedroom", image: `${import.meta.env.BASE_URL}assets/bedroom-360.jpg` },
-  { name: "kitchen", image: `${import.meta.env.BASE_URL}assets/kitchen-360.jpg` },
+  {
+    name: "bedroom",
+    image: `${import.meta.env.BASE_URL}assets/bedroom-360.jpg`,
+  },
+  {
+    name: "kitchen",
+    image: `${import.meta.env.BASE_URL}assets/kitchen-360.jpg`,
+  },
   { name: "toilet", image: `${import.meta.env.BASE_URL}assets/toilet-360.jpg` },
-  { name: "drawing", image: `${import.meta.env.BASE_URL}assets/drawing-360.jpg` },
-  { name: "terrace", image: `${import.meta.env.BASE_URL}assets/terrace-360.jpg` },
+  {
+    name: "drawing",
+    image: `${import.meta.env.BASE_URL}assets/drawing-360.jpg`,
+  },
+  {
+    name: "terrace",
+    image: `${import.meta.env.BASE_URL}assets/terrace-360.jpg`,
+  },
   { name: "garden", image: `${import.meta.env.BASE_URL}assets/garden-360.jpg` },
   { name: "lawn", image: `${import.meta.env.BASE_URL}assets/lawn-360.jpg` },
   { name: "dining", image: `${import.meta.env.BASE_URL}assets/dining-360.jpg` },
