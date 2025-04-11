@@ -22,7 +22,7 @@ An immersive web application that allows users to virtually explore a luxurious 
 
 ```
 /public
-  /assets/images   # 360° images for each room
+  /assets   # 360° images for each room
 
 /src
   /components
